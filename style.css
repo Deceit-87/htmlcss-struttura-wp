@@ -19,9 +19,58 @@ a{
 .container {
     max-width: 1024px;
     margin:0 auto;
+    border:2px dashed rgb(23, 23, 245,0.2);
+    padding: 20px;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.row [class^="col-"]{
+   float: left;
 }
 
+.col-6{
+    width: 50%;
+}
+
+.col-3{
+    width: 25%;
+}
+    /* debug rules */
+
+
 .debug header .container{
-    background-color: blueviolet;
+    background-color: rgb(160, 68, 247,0.2);
+    padding: 20px;
+}
+
+.debug section {
+    border:1px solid;
+    padding: 20px 10px;
+}
+
+
+
+.debug footer .container {
+    background-color:rgb(250, 168, 141,0.2);
+}
+
+.debug #jumbo .container{
+    background-color: rgb(244, 164, 96,0.2);
+    min-height: 250px;
+}
+.debug #main-content .container{
+    min-height: 500px;
+    background-color: rgb(175, 165, 238,0.2);
+}
+
+.debug .row{
+    border: 4px double red;
+    padding: 20px;
+}
+.debug .row >div {
+    background-color: brown;
     padding: 20px;
 }
