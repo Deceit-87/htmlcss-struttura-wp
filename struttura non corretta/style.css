@@ -11,6 +11,7 @@
 .clearfix::after {
     content: '';
     display: block;
+<<<<<<< HEAD
     clear: both;}
 
 header{
@@ -19,3 +20,6 @@ width: 100%;
 header .logo{
     height: 50px;
 }
+=======
+    clear: both;}
+>>>>>>> 480db9974a4a1dce2ca3d76a0a8b5ccd3acf1c08
