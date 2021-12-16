@@ -12,3 +12,10 @@
     content: '';
     display: block;
     clear: both;}
+
+header{
+width: 100%;
+}
+header .logo{
+    height: 50px;
+}
