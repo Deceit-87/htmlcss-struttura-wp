@@ -38,6 +38,10 @@ a{
 .col-3{
     width: 25%;
 }
+
+.col-12{
+    width: 100%;
+}
     /* debug rules */
 
 
@@ -70,7 +74,7 @@ a{
     border: 4px double red;
     padding: 20px;
 }
-.debug .row >div {
-    background-color: brown;
+.debug .row [class^="col-"] {
+    border:2px solid brown;
     padding: 20px;
 }
